@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-    <h1>Cuizzy</h1>
+    <h1>Cuizzy Mobile</h1>
     <p>Challenge your limits</p>
 </div>
 
@@ -37,7 +37,7 @@ Cuizzy is an app for online computer science or coding quizzes, as well as learn
 
 - React Native
 - Expo
-- Tailwind CSS
+- Nativewind
 - Firebase
 - Lucide Icons
 
@@ -57,13 +57,22 @@ Cuizzy is an app for online computer science or coding quizzes, as well as learn
 
 ## 🖼️ Screenshots
 
-![Landing](./.readme/screenshots_1.png)
-![Quizzes](./.readme/screenshots_2.png)
-![Attempt Quiz](./.readme/screenshots_3.png)
-![Videos](./.readme/screenshots_4.png)
-![Result](./.readme/screenshots_5.png)
-![User Profile](./.readme/screenshots_6.png)
-![Login](./.readme/screenshots_7.png)
+<div align="center">
+  <img src="./.readme/screenshots_1.png" width="250" alt="Landing" />
+  <img src="./.readme/screenshots_2.png" width="250" alt="Quizzes" />
+</div>
+<div align="center">
+  <img src="./.readme/screenshots_3.png" width="250" alt="Attempt Quiz" />
+  <img src="./.readme/screenshots_4.png" width="250" alt="Videos" />
+</div>
+<div align="center">
+  <img src="./.readme/screenshots_5.png" width="250" alt="Submission" />
+  <img src="./.readme/screenshots_6.png" width="250" alt="Result" />
+</div>
+<div align="center">
+  <img src="./.readme/screenshots_7.png" width="250" alt="User Profile" />
+  <img src="./.readme/screenshots_8.png" width="250" alt="Login" />
+</div>
 
 ## 👋🏻 Contact
 
