@@ -1,0 +1,52 @@
+{
+  // Editor - Essential formatting and code quality settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "always"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+
+  // Files - Critical file handling settings
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+
+  // JavaScript & TypeScript - Core language settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[javascript][typescript][javascriptreact][typescriptreact][json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ESLint - Essential linting configuration
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Tailwind CSS - Required for proper class handling
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+
+  // Spellcheck
+  "cSpell.words": [
+    "backpackapp",
+    "cuizzy",
+    "gorhom",
+    "lucide",
+    "nativewind",
+    "pressable"
+  ]
+}

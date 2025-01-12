@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Cuizzy",
+    "slug": "cuizzy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "com.s4shibam.cuizzy",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.s4shibam.cuizzy",
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#F1F9F7",
+        "dark": {
+          "image": "./assets/images/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#060E0E"
+        }
+      }
+    },
+    "android": {
+      "package": "com.s4shibam.cuizzy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#F1F9F7"
+      },
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#F1F9F7",
+        "dark": {
+          "image": "./assets/images/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#060E0E"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c9955594-e9d0-4c7c-8f22-e28e750283b6"
+      }
+    }
+  }
+}
